@@ -6,7 +6,7 @@ import requests
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
 orig = "Washington"
 dest = "Baltimaore"
-key = "pzh0dw8qA4fDEfXZ15vYDOWQQEVN6UU8"
+key = "< ... my key ...>"
 
 url = main_api + urllib.parse.urlencode({"key": key, "from":orig, "to":dest})
 print("URL: " + (url))
