@@ -25,7 +25,7 @@ def print_hosts():
     api_url = "https://sandboxapicem.cisco.com/api/v1/host"
     ticket = get_ticket()
     headers = {
-        "content-type": "application/json",
+        "content-type": "application/json"
     }
     resp = requests.get(api_url, headers=headers, verify=False)
     if resp.status_code != 200:
@@ -45,5 +45,6 @@ def print_hosts():
     table_header = ["Number", "Type", "IP"]
     print( tabulate(host_list, table_header) )
 
+print_hosts()
 
 
