@@ -1,0 +1,23 @@
+Windows:
+python -m venv venv
+
+Linux:
+python3 -m venv venv
+
+Activation virtual env:
+Windows
+venv\Scripts\activate
+
+Linux
+source venv/bin/activate
+
+pip install notebook
+jupiter notebook
+pip install pandas
+
+Anaconda navigator:
+CMD
+Powershell
+PyCharm
+Jupiter
+Qt
